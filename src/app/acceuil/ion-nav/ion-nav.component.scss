@@ -1,0 +1,29 @@
+.my-custom-menu {
+    --width: 500px;
+  }
+  ion-toggle {
+  
+    overflow: visible;
+  
+    contain: none;
+    cursor: pointer;
+    --background: rgb(250, 0, 0);
+    --background-checked: #ffffff;
+
+    --background-checked: #ffffff;
+    --handle-background-checked: rgb(255, 0, 0);
+  }
+.id{
+  padding-right: 20px;
+  padding-left: 10px;
+}
+.img{
+  margin-left: 50%;
+}
+.toolbar{
+  float: right;
+
+}
+.avatar{
+  padding-left: 20%;
+}
