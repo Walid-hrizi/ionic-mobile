@@ -13,7 +13,7 @@ import { AjouterProduitComponent } from './produit/ajouter-produit/ajouter-produ
 import { ReactiveFormsModule  } from '@angular/forms';
 import { ModifierProduitComponent } from './produit/modifier-produit/modifier-produit.component';
 @NgModule({
-  imports: [ 
+  imports: [
     CommonModule,
     FormsModule,
     IonicModule,

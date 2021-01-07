@@ -1,24 +1,40 @@
-<form class="text-center border border-light p-5" name="form" [formGroup]="ionicForm" (ngSubmit)="submitbotton()" id="form" enctype="multipart/form-data" method="POST">
-
-  <p class="h4 mb-4">Ajouter Un Produit</p>
-
-  <div class="form-row mb-4">
-    <div class="col">
-       <input  formControlName="nomProduit" name="nomProduit"     type="text"   class="form-control" placeholder="Nom d'un produit">
-    </div>
-     
-     
-    <div class="col">
-       <input formControlName="prix" name="prix"   type="text"   class="form-control" placeholder="Prix d'un produit">
-    </div>
-  </div>
-   
-   <input formControlName="description" name="description" type="text"  class="form-control mb-4" placeholder="Description d'un produit">
-  
-  <div class="container-login100-form-btn">
-    <button type="submit"  class="login100-form-btn">
-      Login
-    </button>
-  </div>
  
-</form>
+ 
+<p></p>
+ 
+
+<div class="limiter">
+  <div class="wrap-table100"  >		 
+    
+   <div class="table100 ver6 m-b-110">
+    <form class="text-center border border-light p-5" name="form" [formGroup]="ionicForm" (ngSubmit)="submitbotton()" id="form" enctype="multipart/form-data" method="POST">
+      
+      <p class="h4 mb-4">Ajouter Un Produit</p>
+      <ion-buttons slot="start">
+        <ion-back-button defaultHref="acceuil/produit"></ion-back-button>
+      </ion-buttons>
+      <div class="form-row mb-4">
+        <div class="col">
+           <input  formControlName="nomProduit" name="nomProduit"     type="text"   class="form-control" placeholder="Nom d'un produit">
+        </div>
+         
+         
+        <div class="col">
+           <input formControlName="prix" name="prix"   type="text"   class="form-control" placeholder="Prix d'un produit">
+        </div>
+      </div>
+       
+       <input formControlName="description" name="description" type="text"  class="form-control mb-4" placeholder="Description d'un produit">
+      
+      <div class="container-login100-form-btn">
+        <button type="submit"  class="login100-form-btn">
+          Ajouter
+        </button>
+      </div>
+     
+    </form>
+    
+   </div>
+ </div>
+</div> 
+
